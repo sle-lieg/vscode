@@ -1,8 +1,9 @@
 {
-    "editor.tabSize": 3,
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": false,
-    "editor.rulers": [
-        80
-    ]
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "boundary",
+	"editor.rulers": [
+		80
+	],
+	"editor.tabSize": 3
 }
