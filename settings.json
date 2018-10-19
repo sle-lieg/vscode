@@ -1,10 +1,22 @@
 {
-	"editor.detectIndentation": false,
+    "editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "boundary",
 	"editor.rulers": [
 		80
 	],
-	"editor.tabSize": 3,
-	"editor.minimap.maxColumn": 40
+	"editor.tabSize": 4,
+	"editor.minimap.maxColumn": 40,
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#000000",
+		"panel.background": "#000000",
+		"sideBar.background": "#000000",
+		"statusBar.border": "#ff0000",
+		"sideBar.border": "#ffffff",
+		"panel.border": "#ffffff",
+		"editor.background": "#000000",
+		"editor.lineHighlightBackground": "#46295e",
+		"editor.selectionHighlightBorder": "#d15151",
+		"editor.selectionBackground": "#9e2020"
+	}
 }
