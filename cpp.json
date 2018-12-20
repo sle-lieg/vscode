@@ -47,8 +47,9 @@
 		"body": [
 			"EXEC	=",
 			"CC		=",
-			"FLAGS	= -Wall -Wextra -Werror",
-			""
+			"CCFLAGS	= -Wall -Wextra -Werror",
+			"#LDFLAG =",
+			"",
 			"############ DIRECTORIES ############",
 			"SOURCES_D	= sources/",
 			"HEADERS_D	= headers/",
@@ -94,7 +95,6 @@
 			"	rm -f $(DEPENDENCIES)",
 			"",
 			"fclean: clean",
-			"	make fclean -C $(MY_SFML_PATH)",
 			"	rm -f $(EXEC)",
 			"",
 			"re: fclean clean all",
